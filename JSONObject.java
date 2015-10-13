@@ -1844,4 +1844,8 @@ public class JSONObject {
             throw new JSONException(exception);
         }
     }
+    
+    public Map<String, Object> getMap(){
+     return map;
+    }
 }
